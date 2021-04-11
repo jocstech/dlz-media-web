@@ -1,0 +1,8 @@
+{
+  "css.validate": false,
+  "editor.formatOnSave": true,
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  }
+}
