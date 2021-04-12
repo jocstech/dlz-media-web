@@ -3,8 +3,12 @@
     <div
       class="container m-auto px-4 md:px-0 flex place-content-between items-center py-4"
     >
-      <div class="branding">
-        <span class="logo text-2xl font-extralight">DLZ MEDIA</span>
+      <div class="branding cursor-pointer">
+        <nuxt-link to="/">
+          <span class="logo text-xl md:text-2xl font-extralight select-none">
+            {{ settings.site_title }}
+          </span>
+        </nuxt-link>
       </div>
       <nav
         class="uppercase font-extralight hidden lg:block md:text-sm lg:text-base"
@@ -52,6 +56,11 @@
 <script>
 export default {
   name: 'Header',
+  computed: {
+    settings() {
+      return this.$store.getters.settings
+    },
+  },
 }
 </script>
 

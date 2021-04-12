@@ -17,15 +17,15 @@
       <div class="contact text-xl md:text-3xl font-light space-y-2">
         <div class="line w-full flex space-x-6">
           <div class="key flex-1 text-right text-theme">Email</div>
-          <div class="value flex-1 text-left">info@dlzmedia.ca</div>
+          <div class="value flex-1 text-left">{{ settings.email }}</div>
         </div>
         <div class="line w-full flex space-x-6">
           <div class="key flex-1 text-right text-theme">Phone</div>
-          <div class="value flex-1 text-left">647-550-2398</div>
+          <div class="value flex-1 text-left">{{ settings.phone }}</div>
         </div>
         <div class="line w-full flex space-x-6">
           <div class="key flex-1 text-right text-theme">WeChat</div>
-          <div class="value flex-1 text-left">DLZMedia</div>
+          <div class="value flex-1 text-left">{{ settings.wechat }}</div>
         </div>
       </div>
     </div>
@@ -36,6 +36,11 @@
 <script>
 export default {
   name: 'Footer',
+  computed: {
+    settings() {
+      return this.$store.getters.settings
+    },
+  },
 }
 </script>
 

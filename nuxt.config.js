@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'dlz-media-web',
+    title: 'DLZ Media',
     htmlAttrs: {
       lang: 'en',
     },
@@ -20,7 +20,7 @@ export default {
   css: ['@/assets/css/main.scss'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [{ src: '@/plugins/directus' }, { src: '@/plugins/masonry' }],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
