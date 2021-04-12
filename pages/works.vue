@@ -9,7 +9,7 @@
         <nuxt-link
           v-for="(item, index) of portfolios"
           :key="index"
-          :to="item.slug"
+          :to="`/${item.slug}`"
           class="item"
         >
           <div class="cover">
