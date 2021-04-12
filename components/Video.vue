@@ -1,12 +1,13 @@
 <template>
-  <figure class="figure">
-    <img :src="src" :alt="alt" />
-  </figure>
+  <video class="video w-full" controls autoplay>
+    <source :src="src" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
 </template>
 
 <script>
 export default {
-  name: 'Picture',
+  name: 'Video',
   props: {
     asset: {
       type: String,
