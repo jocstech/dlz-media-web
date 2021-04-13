@@ -1,7 +1,7 @@
 <template>
-  <header id="header" class="header text-white">
+  <header id="header" class="header text-white sticky top-0 z-10">
     <div
-      class="container m-auto px-4 md:px-0 flex place-content-between items-center py-4"
+      class="container m-auto px-4 md:px-0 flex place-content-between items-center py-3"
     >
       <div class="branding cursor-pointer">
         <nuxt-link to="/">
@@ -33,7 +33,7 @@
       </nav>
       <div class="actions font-extralight">
         <button
-          class="bg-secondary hover:bg-primary px-4 py-2 flex items-center space-x-2 rounded"
+          class="bg-secondary hover:bg-primary px-4 py-1 flex items-center space-x-2 rounded"
         >
           <span>Contact Us</span>
           <img
