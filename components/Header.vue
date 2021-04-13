@@ -34,6 +34,7 @@
       <div class="actions font-extralight">
         <button
           class="bg-secondary trans hover:bg-primary px-4 py-1 flex items-center space-x-2 rounded"
+          @click="toggleMessageBox"
         >
           <span>Contact Us</span>
           <img
@@ -53,6 +54,14 @@ export default {
   computed: {
     settings() {
       return this.$store.getters.settings
+    },
+  },
+  methods: {
+    toggleMessageBox() {
+      this.$store.commit(
+        'UPDATE_MESSAGE_BOX',
+        !this.$store.getters.showMessageBox
+      )
     },
   },
 }
