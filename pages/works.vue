@@ -3,17 +3,16 @@
     <PageHeader title="Portfolio and Works" bg="3">
       <p>We provide the professional video production services</p>
     </PageHeader>
-    <span class="material-icons-outlined"> search </span>
     <section class="container m-auto px-4 py-16">
       <div class="masonry">
         <div
           v-for="(item, index) of portfolios"
           :key="index"
-          class="item bg-gray-100"
+          class="item bg-gray-900"
         >
           <nuxt-link :to="`/${item.slug}`">
-            <div class="info p-3">
-              <h2 class="text-xl font-semibold">{{ item.title }}</h2>
+            <div class="info py-4 px-3">
+              <h2 class="text-xl font-semibold text-white">{{ item.title }}</h2>
               <div class="cast">
                 <div class="text-gray-400">
                   <span>Director:</span>
@@ -29,7 +28,7 @@
               ></Picture>
             </div>
             <div class="p-1">
-              <h3 class="text-xs text-gray-500">
+              <h3 class="text-xs text-gray-200 text-right">
                 Published: {{ new Date(item.created_at).toLocaleString() }}
               </h3>
             </div>

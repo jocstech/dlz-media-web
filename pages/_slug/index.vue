@@ -9,7 +9,7 @@
     <div class="video-player container max-w-6xl m-auto px-4 py-16 relative">
       <div class="headline text-center space-y-6 pb-16">
         <h1 class="text-3xl md:text-5xl text-white">{{ portfolio.title }}</h1>
-        <h2 class="text-sm md:text-xl text-gray-200">
+        <h2 class="text-sm md:text-xl text-gray-400">
           {{ portfolio.subtitle }}
         </h2>
       </div>
@@ -21,8 +21,13 @@
         ></Video>
       </div>
       <div class="info bg-gray-900 text-white p-10 md:p-16 space-y-3">
-        <div class="headline">
-          <h2>{{ portfolio.title }}</h2>
+        <div class="headline flex gap-2 items-center">
+          <img
+            class="w-5 md:w-8"
+            src="~assets/img/icons/youtube2.svg"
+            alt="play"
+          />
+          <h2 class="text-base md:text-2xl">{{ portfolio.title }}</h2>
         </div>
         <hr />
         <div class="flex flex-col space-y-3">
