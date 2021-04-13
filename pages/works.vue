@@ -47,29 +47,12 @@ export default {
 .masonry {
   width: 100%;
   margin: 1.2rem auto;
-  columns: 4;
+  columns: 300px 4;
   column-gap: 1.6rem;
-  .item {
-    width: 100%;
-    break-inside: avoid;
-    margin-bottom: 1.6rem;
-  }
-}
-@media screen and (min-width: 1024px) and (max-width: 1439.98px) {
-  .masonry {
-    columns: 3;
-    margin-bottom: 1.5rem;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1023.98px) {
-  .masonry {
-    columns: 2;
-    margin-bottom: 1.5rem;
-  }
-}
-@media screen and (max-width: 767.98px) {
-  .masonry {
-    columns: 1;
-  }
+  // .item {
+  //   width: 100%;
+  //   break-inside: avoid;
+  //   margin-bottom: 1.6rem;
+  // }
 }
 </style>

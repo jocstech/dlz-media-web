@@ -6,7 +6,7 @@
         <h2 class="text-3xl text-gray-600">{{ portfolio.subtitle }}</h2>
       </div>
       <div class="video">
-        <Video :asset="portfolio.video" :alt="portfolio.title"></Video>
+        <Video :vid="portfolio.youtube_id" :alt="portfolio.title"></Video>
       </div>
       <div class="cover">
         <Picture :asset="portfolio.cover" :alt="portfolio.title"></Picture>

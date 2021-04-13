@@ -1,6 +1,6 @@
 <template>
   <footer id="footer" class="footer bg-black text-white font-light">
-    <div class="inner container m-auto px-4 py-16 md:py-28 space-y-6">
+    <div class="inner container m-auto max-w-6xl px-4 py-16 md:py-28 space-y-6">
       <div class="headline flex space-x-6 items-center">
         <div class="icon w-10 h-10">
           <img

@@ -15,22 +15,16 @@
       >
         <ul class="flex space-x-6 md:space-x-8">
           <li>
-            <nuxt-link to="/about">about</nuxt-link>
+            <nuxt-link to="/">home</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/TEAM">team</nuxt-link>
+            <nuxt-link to="/about">about</nuxt-link>
           </li>
           <li>
             <nuxt-link to="/services">services</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/companies">companies</nuxt-link>
-          </li>
-          <li>
             <nuxt-link to="/works">works</nuxt-link>
-          </li>
-          <li>
-            <nuxt-link to="/channel">channel</nuxt-link>
           </li>
           <li>
             <nuxt-link to="/contact">contact</nuxt-link>

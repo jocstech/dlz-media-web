@@ -1,15 +1,19 @@
 <template>
-  <video class="video w-full" controls autoplay>
-    <source :src="src" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
+  <iframe
+    class="w-full h-45w"
+    :src="`https://www.youtube.com/embed/${vid}`"
+    title="YouTube Video Player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
 </template>
 
 <script>
 export default {
   name: 'Video',
   props: {
-    asset: {
+    vid: {
       type: String,
       required: true,
     },

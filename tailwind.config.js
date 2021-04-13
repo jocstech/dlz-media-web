@@ -15,10 +15,10 @@ module.exports = {
         secondary: '#2F7196',
       },
       spacing: {
-        13: '3.25rem',
-        15: '3.75rem',
         128: '32rem',
         144: '36rem',
+        160: '40rem',
+        '45w': '45vw',
         '50w': '50vw',
         '55w': '55vw',
         '60w': '60vw',
@@ -34,7 +34,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      grayscale: ['hover', 'focus'],
+    },
   },
   plugins: [],
 }

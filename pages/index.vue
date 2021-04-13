@@ -11,31 +11,20 @@
           </div>
           <div class="actions text-base md:text-2xl">
             <button
-              class="bg-theme font-extralight text-white px-4 md:px-8 py-2 md:py-4 rounded"
+              class="bg-theme trans hover:bg-green-600 font-extralight text-white px-4 md:px-8 py-2 md:py-4 rounded"
             >
               Get Started
             </button>
           </div>
         </div>
       </div>
+      <!-- ABOUT US -->
       <section class="about-us bg-white py-16">
         <div
           class="inner container m-auto px-6 max-w-6xl space-y-3 lg:space-x-6 flex flex-col lg:flex-row"
         >
           <div class="text-block space-y-6 flex-1">
-            <div class="headline flex space-x-6 items-center">
-              <div class="icon w-10 h-10">
-                <img
-                  class="w-full h-full"
-                  src="~assets/img/icons/shutter-gray.svg"
-                  alt="logo"
-                />
-              </div>
-              <div>
-                <div class="label text-xl text-gray-400">ABOUT</div>
-                <div class="title text-3xl">About us</div>
-              </div>
-            </div>
+            <Headline title="about" subtitle="about us"></Headline>
             <article
               class="text-base md:text-xl leading-8 space-y-1 md:space-y-4 text-gray-600"
             >
@@ -61,7 +50,7 @@
             </article>
             <div class="actions text-base md:text-2xl">
               <button
-                class="bg-theme font-extralight text-white px-4 md:px-8 py-2 md:py-4 rounded uppercase"
+                class="bg-theme trans hover:bg-green-600 font-extralight text-white px-4 md:px-8 py-2 md:py-4 rounded uppercase"
               >
                 learn more
               </button>
@@ -72,29 +61,18 @@
           </div>
         </div>
       </section>
+      <!-- TEAM MEMBERS -->
       <section class="team bg-gray-100 py-16">
         <div class="inner container m-auto px-4 max-w-6xl space-y-16 space-x-6">
-          <div class="headline flex space-x-6 items-center">
-            <div class="icon w-10 h-10">
-              <img
-                class="w-full h-full"
-                src="~assets/img/icons/shutter-gray.svg"
-                alt="logo"
-              />
-            </div>
-            <div>
-              <div class="label text-xl text-gray-400">TEAM</div>
-              <div class="title text-3xl">Team members</div>
-            </div>
-          </div>
+          <Headline title="team" subtitle="team members"></Headline>
           <div
             class="members grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-0"
           >
             <div class="member flex flex-col items-center space-y-8">
               <div class="profile-pic">
                 <img
-                  class="rounded-full w-44 h-44"
-                  src="/images/profile.jpg"
+                  class="rounded-full w-44 h-44 object-cover"
+                  src="/images/persona1.jpg"
                   alt="Oscar Jin"
                 />
               </div>
@@ -108,8 +86,8 @@
             <div class="member flex flex-col items-center space-y-8">
               <div class="profile-pic">
                 <img
-                  class="rounded-full w-44 h-44"
-                  src="/images/profile.jpg"
+                  class="rounded-full w-44 h-44 object-cover"
+                  src="/images/persona2.jpg"
                   alt="Oscar Jin"
                 />
               </div>
@@ -123,8 +101,8 @@
             <div class="member flex flex-col items-center space-y-8">
               <div class="profile-pic">
                 <img
-                  class="rounded-full w-44 h-44"
-                  src="/images/profile.jpg"
+                  class="rounded-full w-44 h-44 object-cover"
+                  src="/images/persona3.jpg"
                   alt="Oscar Jin"
                 />
               </div>
@@ -140,8 +118,8 @@
             <div class="member flex flex-col items-center space-y-8">
               <div class="profile-pic">
                 <img
-                  class="rounded-full w-44 h-44"
-                  src="/images/profile.jpg"
+                  class="rounded-full w-44 h-44 object-cover"
+                  src="/images/persona4.jpg"
                   alt="Oscar Jin"
                 />
               </div>
@@ -155,13 +133,97 @@
           </div>
         </div>
       </section>
-    </div>
-
-    <div class="inner h-96 flex flex-col items-center justify-center">
-      <h1 class="text-5xl font-bold">HOME PAGE</h1>
-    </div>
-    <div class="inner h-96 flex flex-col items-center justify-center">
-      <h1 class="text-5xl font-bold">HOME PAGE</h1>
+      <!-- SERVICES -->
+      <section class="services bg-white py-16">
+        <div class="inner container m-auto px-4 max-w-6xl space-y-16 space-x-6">
+          <Headline title="services" subtitle="our services"></Headline>
+        </div>
+        <div class="content py-16">
+          <ServicesList></ServicesList>
+        </div>
+      </section>
+      <!-- COMPANIES -->
+      <section class="compaines bg-white py-16">
+        <div class="inner container m-auto px-4 max-w-6xl space-y-16 space-x-6">
+          <Headline
+            title="companies"
+            subtitle="companies we work with"
+          ></Headline>
+          <div class="content">
+            <div
+              class="compaines grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6"
+            >
+              <div class="company border filter hover:grayscale trans">
+                <img src="/images/company1.jpg" alt="company" />
+              </div>
+              <div class="company border filter hover:grayscale trans">
+                <img src="/images/company1.jpg" alt="company" />
+              </div>
+              <div class="company border filter hover:grayscale trans">
+                <img src="/images/company1.jpg" alt="company" />
+              </div>
+              <div class="company border filter hover:grayscale trans">
+                <img src="/images/company1.jpg" alt="company" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CHANNEL -->
+      <section class="channel bg-theme py-16">
+        <div class="inner container m-auto px-4 max-w-6xl space-y-16 space-x-6">
+          <Headline
+            title="channels"
+            subtitle="channels"
+            :darkmode="true"
+          ></Headline>
+          <div class="content flex justify-center">
+            <div class="list w-full grid grid-cols-1 md:grid-cols-2">
+              <div class="item flex items-center space-x-3 p-6">
+                <img
+                  class="w-6 md:w-9 h-6 md:h-9"
+                  src="~assets/img/icons/douyin.svg"
+                  alt="Douyin"
+                />
+                <div class="info flex flex-col text-white">
+                  <span>dlz_media_at_toronto</span>
+                  <span>DLZ_Media</span>
+                </div>
+              </div>
+              <div class="item flex items-center space-x-3 p-6">
+                <img
+                  class="w-6 md:w-9 h-6 md:h-9"
+                  src="~assets/img/icons/instagram.svg"
+                  alt="instagram"
+                />
+                <div class="info flex flex-col text-white">
+                  <span>dlz_media_at_toronto</span>
+                </div>
+              </div>
+              <div class="item flex items-center space-x-3 p-6">
+                <img
+                  class="w-6 md:w-9 h-6 md:h-9 rounded-full bg-white"
+                  src="~assets/img/icons/redbook.svg"
+                  alt="redbook"
+                />
+                <div class="info flex flex-col text-white">
+                  <span>DLZ Discovery</span>
+                </div>
+              </div>
+              <div class="item flex items-center space-x-3 p-6">
+                <img
+                  class="w-6 md:w-9 h-6 md:h-9"
+                  src="~assets/img/icons/youtube.svg"
+                  alt="TikTok"
+                />
+                <div class="info flex flex-col text-white">
+                  <span>DLZ_Media</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </div>
 </template>
@@ -177,6 +239,38 @@ export default {}
       background-image: url('/images/home-hero.jpg');
       background-position: center center;
       background-size: cover;
+    }
+  }
+
+  .channel {
+    .list {
+      .item {
+        border-bottom: 1px dashed rgb(255, 255, 255);
+        @media (min-width: 768px) {
+          padding-left: 6rem;
+          border: 1px dashed rgb(255, 255, 255);
+          &:nth-child(1) {
+            border-top: 0;
+            border-left: 0;
+          }
+          &:nth-child(2) {
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+          }
+          &:nth-child(3) {
+            border-top: 0;
+            border-bottom: 0;
+            border-left: 0;
+          }
+          &:nth-child(4) {
+            border-top: 0;
+            border-bottom: 0;
+            border-left: 0;
+            border-right: 0;
+          }
+        }
+      }
     }
   }
 }
