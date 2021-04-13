@@ -34,7 +34,7 @@ export default {
   },
   computed: {
     src() {
-      return `https://api.dlzmedia.ca/assets/${this.asset}`
+      return `https://api.dlzmedia.ca/assets/${this.asset}?quality=75`
     },
   },
 }
