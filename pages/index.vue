@@ -1,12 +1,14 @@
 <template>
   <div class="home">
     <div class="inner font-extralight">
-      <div class="hero w-full h-50w text-right flex">
+      <div class="hero w-full text-right flex">
         <div
-          class="container m-auto px-6 max-w-6xl text-2xl md:text-4xl space-y-3"
+          class="container m-auto px-6 max-w-6xl text-xl md:text-4xl lg:text-6xl space-y-3"
         >
-          <div class="callout space-y-3 tracking-wide text-gray-700">
-            <h1>Luxury Watches Jewelry Made</h1>
+          <div
+            class="callout font-semibold md:font-black space-y-3 tracking-wide text-gray-700 filter md:drop-shadow"
+          >
+            <h1 class="">Luxury Watches Jewelry Made</h1>
             <h1>For Everyday Attire</h1>
           </div>
           <div class="actions text-base md:text-2xl">
@@ -26,7 +28,7 @@
           <div class="text-block space-y-6 flex-1">
             <Headline title="about" subtitle="about us"></Headline>
             <article
-              class="text-base md:text-xl leading-8 space-y-1 md:space-y-4 text-gray-600"
+              class="md:text-xl md:leading-8 space-y-1 md:space-y-4 text-gray-600"
             >
               <p>
                 DLZ media is a Toronto base video production company, staring at
@@ -48,7 +50,7 @@
                 successful video content is based on communication between us.
               </p>
             </article>
-            <div class="actions text-base md:text-2xl">
+            <div class="actions text-base md:text-2xl text-center md:text-left">
               <button
                 class="bg-theme trans hover:bg-green-600 font-extralight text-white px-4 md:px-8 py-2 md:py-4 rounded uppercase"
               >
@@ -239,6 +241,11 @@ export default {}
       background-image: url('/images/home-hero.jpg');
       background-position: center center;
       background-size: cover;
+
+      height: 50vw;
+      @media (max-width: 760px) {
+        height: 85vw;
+      }
     }
   }
 
