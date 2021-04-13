@@ -1,13 +1,13 @@
 <template>
   <div class="contact-form">
-    <form class="space-y-6" @submit.prevent="submit">
-      <div class="group flex gap-6">
+    <form class="space-y-3 md:space-y-6" @submit.prevent="submit">
+      <div class="group flex flex-col md:flex-row gap-3 md:gap-6">
         <input
           v-model="form.company"
           class="flex-1 px-6 py-4 rounded bg-gray-100"
           type="text"
           name="company"
-          placeholder="Company"
+          placeholder="Company*"
           required
         />
         <input
@@ -15,17 +15,17 @@
           class="flex-1 px-6 py-4 rounded bg-gray-100"
           type="text"
           name="contact_name"
-          placeholder="Contact Name"
+          placeholder="Contact Name*"
           required
         />
       </div>
-      <div class="group flex gap-6">
+      <div class="group flex flex-col md:flex-row gap-3 md:gap-6">
         <input
           v-model="form.phone"
           class="flex-1 px-6 py-4 rounded bg-gray-100"
           type="tel"
           name="phone"
-          placeholder="Phone"
+          placeholder="Phone*"
           required
         />
         <input
@@ -33,25 +33,24 @@
           class="flex-1 px-6 py-4 rounded bg-gray-100"
           type="email"
           name="email"
-          placeholder="Email"
+          placeholder="Email*"
           required
         />
       </div>
-      <div class="group flex gap-6">
+      <div class="group flex flex-col md:flex-row gap-3 md:gap-6">
         <input
           v-model="form.date"
           class="flex-1 px-6 py-4 rounded bg-gray-100"
           type="date"
           name="date"
           placeholder="Shooting Date*"
-          required
         />
         <input
           v-model="form.budget"
           class="flex-1 px-6 py-4 rounded bg-gray-100"
           type="text"
           name="budget"
-          placeholder="Budget Range*"
+          placeholder="Budget Range(CAD)*"
           required
         />
       </div>

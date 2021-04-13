@@ -18,9 +18,55 @@
         successful video content is based on communication between us.
       </p>
     </PageHeader>
-    <div class="inner container m-auto h-144 flex place-items-center">
-      <h1 class="text-6xl font-black">XXXXX</h1>
-    </div>
+    <section
+      class="container m-auto max-w-6xl flex flex-col md:flex-row py-16 md:py-32 space-y-6 md:space-y-0"
+    >
+      <div class="cover flex-1">
+        <img src="/images/bg7.jpg" alt="cover" />
+      </div>
+      <div class="info flex-1 px-4 md:px-16 space-y-32">
+        <div class="text space-y-8">
+          <div class="label text-md text-gray-400">DLZ Media Canada</div>
+          <div class="title font-bold text-2xl md:text-4xl">
+            Creator Of Quality Designs And Thinker Of Fresh Ideas.
+          </div>
+          <div class="desc">
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. A small river
+              named Duden flows by their place and supplies it with the
+              necessary regelialia
+            </p>
+          </div>
+        </div>
+        <div class="jobs space-y-3">
+          <div class="headline text-gray-400">What I Do</div>
+          <div class="list-cols flex">
+            <div class="col flex-1 flex flex-col space-y-3">
+              <span>Scripts Writing</span>
+              <span>Movie Development</span>
+              <span>Video Editing</span>
+              <span>Audio Editing</span>
+            </div>
+            <div class="col flex-1 flex flex-col space-y-3">
+              <span>Social Marketing</span>
+              <span>Filming Strategy</span>
+              <span>Video Audits</span>
+              <span>Branding</span>
+            </div>
+          </div>
+        </div>
+        <div class="social">YouTube | RedBook</div>
+      </div>
+    </section>
+    <section class="bg-gray-100">
+      <div class="container m-auto max-w-6xl py-32 space-y-6">
+        <Headline class="px-4" title="contact" subtitle="contact us"></Headline>
+        <div class="content w-full bg-white p-4 md:p-16">
+          <ContactForm></ContactForm>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 

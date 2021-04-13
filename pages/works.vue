@@ -3,7 +3,7 @@
     <PageHeader title="Portfolio and Works" bg="3">
       <p>We provide the professional video production services</p>
     </PageHeader>
-    <div class="container m-auto px-4 py-16">
+    <section class="container m-auto px-4 py-16">
       <div class="masonry">
         <nuxt-link
           v-for="(item, index) of portfolios"
@@ -26,7 +26,15 @@
           </div>
         </nuxt-link>
       </div>
-    </div>
+    </section>
+    <section class="bg-gray-100">
+      <div class="container m-auto max-w-6xl py-32 space-y-6">
+        <Headline class="px-4" title="contact" subtitle="contact us"></Headline>
+        <div class="content w-full bg-white p-4 md:p-16">
+          <ContactForm></ContactForm>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
