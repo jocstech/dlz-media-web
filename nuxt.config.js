@@ -11,7 +11,12 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'DLZ media is a Toronto base video production company, staring at 2019. We are focus on making cost- effective videos and images for small businesses.',
+      },
     ],
 
     link: [
@@ -19,6 +24,10 @@ export default {
       {
         rel: 'preconnect',
         href: 'https://fonts.gstatic.com',
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/icon?family=Material+Icons',
       },
       {
         ref: 'stylesheet',

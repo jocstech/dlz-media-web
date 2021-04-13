@@ -28,14 +28,15 @@
         <div class="text space-y-8">
           <div class="label text-md text-gray-400">DLZ Media Canada</div>
           <div class="title font-bold text-2xl md:text-4xl">
-            Creator Of Quality Designs And Thinker Of Fresh Ideas.
+            Creator Of Quality Videos And Thinker Of Fresh Ideas.
           </div>
           <div class="desc">
             <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. A small river
-              named Duden flows by their place and supplies it with the
-              necessary regelialia
+              We provide professional service in commercial, corporate video,
+              promotional video, and real estate. We collaborate with our
+              customs, listening their requires and making a strong, compelling,
+              multimedia solutions that enhance their sales, marketing, training
+              and corporate communication activities.
             </p>
           </div>
         </div>
@@ -44,12 +45,12 @@
           <div class="list-cols flex">
             <div class="col flex-1 flex flex-col space-y-3">
               <span>Scripts Writing</span>
-              <span>Movie Development</span>
+              <span>Movie Making</span>
               <span>Video Editing</span>
               <span>Audio Editing</span>
             </div>
             <div class="col flex-1 flex flex-col space-y-3">
-              <span>Social Marketing</span>
+              <span>Video Marketing</span>
               <span>Filming Strategy</span>
               <span>Video Audits</span>
               <span>Branding</span>

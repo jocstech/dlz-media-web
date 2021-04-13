@@ -14,26 +14,26 @@
         class="uppercase font-extralight hidden lg:block md:text-sm lg:text-base"
       >
         <ul class="flex space-x-6 md:space-x-8">
-          <li>
+          <li class="trans hover:text-yellow-400">
             <nuxt-link to="/">home</nuxt-link>
           </li>
-          <li>
+          <li class="trans hover:text-yellow-400">
             <nuxt-link to="/about">about</nuxt-link>
           </li>
-          <li>
+          <li class="trans hover:text-yellow-400">
             <nuxt-link to="/services">services</nuxt-link>
           </li>
-          <li>
+          <li class="trans hover:text-yellow-400">
             <nuxt-link to="/works">works</nuxt-link>
           </li>
-          <li>
+          <li class="trans hover:text-yellow-400">
             <nuxt-link to="/contact">contact</nuxt-link>
           </li>
         </ul>
       </nav>
       <div class="actions font-extralight">
         <button
-          class="bg-secondary hover:bg-primary px-4 py-1 flex items-center space-x-2 rounded"
+          class="bg-secondary trans hover:bg-primary px-4 py-1 flex items-center space-x-2 rounded"
         >
           <span>Contact Us</span>
           <img

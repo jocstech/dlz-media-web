@@ -3,28 +3,38 @@
     <PageHeader title="Portfolio and Works" bg="3">
       <p>We provide the professional video production services</p>
     </PageHeader>
+    <span class="material-icons-outlined"> search </span>
     <section class="container m-auto px-4 py-16">
       <div class="masonry">
-        <nuxt-link
+        <div
           v-for="(item, index) of portfolios"
           :key="index"
-          :to="`/${item.slug}`"
-          class="item"
+          class="item bg-gray-100"
         >
-          <div class="cover">
-            <Picture :asset="item.cover" :alt="item.title"></Picture>
-          </div>
-          <div class="info py-3">
-            <h2 class="text-3xl">{{ item.title }}</h2>
-            <h3 class="text-xl text-gray-700">{{ item.subtitle }}</h3>
-            <div class="cast">
-              <span class="text-gray-400">
-                <span>Director</span>
-                <span>{{ item.director }}</span>
-              </span>
+          <nuxt-link :to="`/${item.slug}`">
+            <div class="info p-3">
+              <h2 class="text-xl font-semibold">{{ item.title }}</h2>
+              <div class="cast">
+                <div class="text-gray-400">
+                  <span>Director:</span>
+                  <span>{{ item.director }}</span>
+                </div>
+              </div>
             </div>
-          </div>
-        </nuxt-link>
+            <div class="cover">
+              <Picture
+                :asset="item.cover"
+                :alt="item.title"
+                :show-play="true"
+              ></Picture>
+            </div>
+            <div class="p-1">
+              <h3 class="text-xs text-gray-500">
+                Published: {{ new Date(item.created_at).toLocaleString() }}
+              </h3>
+            </div>
+          </nuxt-link>
+        </div>
       </div>
     </section>
     <section class="bg-gray-100">
@@ -55,11 +65,11 @@ export default {
   width: 100%;
   margin: 1.2rem auto;
   columns: 300px 4;
-  column-gap: 1.6rem;
-  // .item {
-  //   width: 100%;
-  //   break-inside: avoid;
-  //   margin-bottom: 1.6rem;
-  // }
+  column-gap: 1.8rem;
+  .item {
+    width: 100%;
+    break-inside: avoid;
+    margin-bottom: 1.8rem;
+  }
 }
 </style>

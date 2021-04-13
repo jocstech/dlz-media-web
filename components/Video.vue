@@ -1,7 +1,7 @@
 <template>
   <iframe
-    class="w-full h-45w"
-    :src="`https://www.youtube.com/embed/${vid}`"
+    class="w-full h-70w md:h-45w lg:h-40w"
+    :src="src"
     title="YouTube Video Player"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -25,7 +25,7 @@ export default {
   },
   computed: {
     src() {
-      return `https://api.dlzmedia.ca/assets/${this.asset}`
+      return `https://www.youtube.com/embed/${this.vid}`
     },
   },
 }
