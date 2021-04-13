@@ -16,7 +16,7 @@
     </div>
     <div>
       <div
-        class="label text-sm md:text-lg uppercase"
+        class="label text-sm md:text-md uppercase"
         :class="{ 'text-white': darkmode, 'text-gray-400': !darkmode }"
       >
         {{ title }}
@@ -48,4 +48,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.title {
+  font-family: 'Lobster', cursive;
+}
+</style>

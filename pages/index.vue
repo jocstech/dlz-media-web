@@ -236,6 +236,10 @@ export default {}
 
 <style lang="scss" scoped>
 .home {
+  button {
+    font-family: 'Oswald', sans-serif;
+  }
+
   .inner {
     .hero {
       background-image: url('/images/home-hero.jpg');

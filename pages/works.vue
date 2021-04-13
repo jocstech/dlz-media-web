@@ -1,10 +1,9 @@
 <template>
   <div class="works">
+    <PageHeader title="Portfolio and Works" bg="3">
+      <p>We provide the professional video production services</p>
+    </PageHeader>
     <div class="container m-auto px-4 py-16">
-      <div class="headline text-center py-12">
-        <h1 class="text-6xl uppercase text-black">Our Portfolio and Works</h1>
-      </div>
-
       <div class="masonry">
         <nuxt-link
           v-for="(item, index) of portfolios"
