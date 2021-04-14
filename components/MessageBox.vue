@@ -25,7 +25,8 @@
             class="flex-1 border-b border-gray-400"
             type="text"
             name="contact_name"
-            placeholder="Name"
+            placeholder="Name*"
+            required
           />
         </div>
         <div class="group flex space-x-3">
@@ -45,7 +46,8 @@
             class="flex-1 border-b border-gray-400"
             type="tel"
             name="phone"
-            placeholder="Mobile Phone"
+            placeholder="Mobile Phone*"
+            required
           />
         </div>
         <div class="group flex">
