@@ -1,9 +1,12 @@
 <template>
-  <header id="header" class="header text-white sticky top-0 z-10">
+  <header id="header" class="header text-white sticky top-0 z-20">
     <div
       class="container m-auto px-4 md:px-0 flex place-content-between items-center py-3"
     >
-      <div class="branding cursor-pointer">
+      <div class="branding cursor-pointer flex justify-center items-center">
+        <span class="mobile-menu md:hidden flex justify-center items-center">
+          <MenuToggle></MenuToggle
+        ></span>
         <nuxt-link to="/">
           <span class="logo text-xl md:text-2xl font-extralight select-none">
             {{ settings.site_title }}
@@ -54,6 +57,11 @@ export default {
   computed: {
     settings() {
       return this.$store.getters.settings
+    },
+  },
+  watch: {
+    $route() {
+      this.$store.commit('UPDATE_MOBILE_MENU', false)
     },
   },
   methods: {

@@ -1,6 +1,7 @@
 // state
 export const state = () => ({
   settings: null,
+  mobileMenu: false,
   showOverlay: false,
   showMessageBox: false,
 })
@@ -8,6 +9,7 @@ export const state = () => ({
 // getters
 export const getters = {
   settings: (state) => state.settings,
+  mobileMenu: (state) => state.mobileMenu,
   showOverlay: (state) => state.showOverlay,
   showMessageBox: (state) => state.showMessageBox,
 }
@@ -24,6 +26,12 @@ export const mutations = {
   UPDATE_MESSAGE_BOX(state, showMessageBox) {
     state.showMessageBox = showMessageBox
     state.showOverlay = showMessageBox
+  },
+  UPDATE_MOBILE_MENU(state, status) {
+    state.mobileMenu = status
+  },
+  TOGGLE_MOBILE_MENU(state) {
+    state.mobileMenu = !state.mobileMenu
   },
 }
 
