@@ -20,7 +20,7 @@
                 </div>
               </div>
             </div>
-            <div class="cover">
+            <div class="cover" style="min-height: 200px">
               <Picture
                 :asset="item.cover"
                 :alt="item.title"
