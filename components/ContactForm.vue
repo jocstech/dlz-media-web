@@ -6,6 +6,11 @@
       method="POST"
       data-netlify="true"
     >
+      <input
+        type="hidden"
+        name="subject"
+        value="✅ New Order Submitted: Contact Form - DLZMedia.ca"
+      />
       <input type="hidden" name="form-name" value="contact" />
       <div
         class="group flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-3"

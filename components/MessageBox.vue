@@ -12,7 +12,13 @@
       </div>
     </div>
     <div class="p-6">
-      <form class="space-y-6" @submit.prevent="submit">
+      <form class="space-y-6" name="message" method="POST" data-netlify="true">
+        <input
+          type="hidden"
+          name="subject"
+          value="✅ New Contact Request Submitted: Message Form - DLZMedia.ca"
+        />
+        <input type="hidden" name="form-name" value="message" />
         <div class="group flex">
           <input
             v-model="form.contact_name"
