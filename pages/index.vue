@@ -3,7 +3,7 @@
     <div class="inner font-extralight">
       <div class="hero w-full text-right flex">
         <div
-          class="container m-auto px-6 max-w-6xl text-xl md:text-4xl lg:text-6xl space-y-3"
+          class="container m-auto px-6 max-w-6xl text-xl md:text-4xl lg:text-6xl space-y-16"
         >
           <div
             class="callout font-semibold md:font-black space-y-3 tracking-wide text-gray-700 filter md:drop-shadow animated fadeIn slower"
@@ -15,7 +15,7 @@
             class="actions text-base md:text-2xl animated fadeIn slower delay-1s"
           >
             <button
-              class="bg-theme trans hover:bg-green-600 font-extralight text-white px-4 md:px-8 py-2 md:py-4 rounded"
+              class="bg-theme trans hover:bg-green-600 text-base font-extralight text-white px-4 md:px-8 py-2 md:py-4 rounded"
               @click="$router.push('/services')"
             >
               Get Started
@@ -83,7 +83,7 @@
                 />
               </div>
               <div class="info flex flex-col items-center space-y-3">
-                <span class="name text-4xl font-normal text-theme"
+                <span class="name text-3xl font-light text-theme"
                   >Oscar Jin</span
                 >
                 <span class="job-title text-xl text-gray-600">Founder</span>
@@ -98,7 +98,7 @@
                 />
               </div>
               <div class="info flex flex-col items-center space-y-3">
-                <span class="name text-4xl font-normal text-theme"
+                <span class="name text-3xl font-light text-theme"
                   >Rooney Wei</span
                 >
                 <span class="job-title text-xl text-gray-500">Founder</span>
@@ -113,7 +113,7 @@
                 />
               </div>
               <div class="info flex flex-col items-center space-y-3">
-                <span class="name text-4xl font-normal text-theme"
+                <span class="name text-3xl font-light text-theme"
                   >Charles Wang</span
                 >
                 <span class="job-title text-xl text-gray-500"
@@ -130,7 +130,7 @@
                 />
               </div>
               <div class="info flex flex-col items-center space-y-3">
-                <span class="name text-4xl font-normal text-theme"
+                <span class="name text-3xl font-light text-theme"
                   >Chloe Li</span
                 >
                 <span class="job-title text-xl text-gray-500">Producer</span>

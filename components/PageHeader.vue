@@ -5,7 +5,7 @@
         class="hero bg-cover bg-center flex flex-col items-center justify-center text-white space-y-6 py-28 lg:py-32 px-4"
         :style="`background-image:url('/images/bg${bg}.jpg')`"
       >
-        <h1 class="text-4xl lg:text-6xl capitalize animated fadeIn slow">
+        <h1 class="text-3xl lg:text-5xl capitalize animated fadeIn slow">
           {{ title }}
         </h1>
         <article
