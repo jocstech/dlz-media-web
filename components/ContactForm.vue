@@ -1,6 +1,11 @@
 <template>
   <div class="contact-form">
-    <form class="space-y-3 md:space-y-6" method="POST" data-netlify="true">
+    <form
+      class="space-y-3 md:space-y-6"
+      name="contact"
+      method="POST"
+      data-netlify="true"
+    >
       <input type="hidden" name="form-name" value="contact" />
       <div
         class="group flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-3"
