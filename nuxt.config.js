@@ -7,7 +7,7 @@ export default {
   },
   head: {
     title: 'DLZ Media',
-    titleTemplate: '%s | dlzmedia.ca',
+    titleTemplate: '%s | DLZMedia.ca',
     htmlAttrs: {
       lang: 'en',
     },
