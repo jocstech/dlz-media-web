@@ -1,5 +1,5 @@
 <template>
-  <div class="headline flex space-x-6 items-center">
+  <div class="headline flex space-x-6 items-center animated fadeIn">
     <div class="icon w-8 md:w-10 h-8 md:h-10">
       <img
         v-if="!darkmode"

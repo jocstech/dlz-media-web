@@ -1,10 +1,13 @@
 export default {
-  // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-
-  // Global page headers: https://go.nuxtjs.dev/config-head
+  telemetry: false,
+  pageTransition: {
+    name: 'page',
+    mode: 'out-in',
+  },
   head: {
     title: 'DLZ Media',
+    titleTemplate: '%s | dlzmedia.ca',
     htmlAttrs: {
       lang: 'en',
     },
@@ -30,6 +33,11 @@ export default {
     ],
 
     link: [
+      {
+        hid: 'preconnect',
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com',
+      },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'apple-touch-icon',
@@ -57,15 +65,14 @@ export default {
         href: '/safari-pinned-tab.svg',
         color: '#4ab3cd',
       },
+
       {
-        rel: 'preconnect',
-        href: 'https://fonts.gstatic.com',
-      },
-      {
+        hid: 'google-fonts-icons',
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/icon?family=Material+Icons',
       },
       {
+        hid: 'google-fonts',
         ref: 'stylesheet',
         href:
           'https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap',
@@ -73,32 +80,11 @@ export default {
     ],
   },
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['@/assets/css/main.scss'],
-
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
+  css: ['@/assets/magic/animate.min.css', '@/assets/css/main.scss'],
   plugins: [{ src: '@/plugins/directus' }, { src: '@/plugins/masonry' }],
-
-  // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
-
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [
-    // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module',
-    // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss',
-  ],
-
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-    // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
-  ],
-
-  // Axios module configuration: https://go.nuxtjs.dev/config-axios
+  buildModules: ['@nuxtjs/eslint-module', '@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/axios'],
   axios: {},
-
-  // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
 }

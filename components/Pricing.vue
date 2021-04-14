@@ -2,7 +2,7 @@
   <div class="pricing">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
       <div
-        class="tier bg-gradient-to-br from-purple-800 to-blue-500 hover:to-purple-400 text-white px-8 py-16 rounded space-y-6"
+        class="tier bg-gradient-to-br from-purple-800 to-blue-500 hover:to-purple-400 text-white px-8 py-16 rounded space-y-6 animated fadeInUp"
       >
         <div class="headline text-center space-y-3">
           <h2 class="text-3xl md:text-5xl">Budget</h2>
@@ -24,7 +24,7 @@
         </div>
       </div>
       <div
-        class="tier bg-gradient-to-br from-purple-800 to-blue-500 hover:to-purple-400 text-white px-8 py-16 rounded space-y-6"
+        class="tier bg-gradient-to-br from-purple-800 to-blue-500 hover:to-purple-400 text-white px-8 py-16 rounded space-y-6 animated fadeInUp"
       >
         <div class="headline text-center space-y-3">
           <h2 class="text-3xl md:text-5xl">Bronze</h2>
@@ -48,7 +48,7 @@
         </div>
       </div>
       <div
-        class="tier bg-gradient-to-br from-purple-800 to-blue-500 hover:to-purple-400 text-white px-8 py-16 rounded space-y-6"
+        class="tier bg-gradient-to-br from-purple-800 to-blue-500 hover:to-purple-400 text-white px-8 py-16 rounded space-y-6 animated fadeInUp"
       >
         <div class="headline text-center space-y-3">
           <h2 class="text-3xl md:text-5xl">Silver</h2>
@@ -73,7 +73,7 @@
         </div>
       </div>
       <div
-        class="tier bg-gradient-to-br from-purple-800 to-blue-500 hover:to-purple-400 text-white px-8 py-16 rounded space-y-6"
+        class="tier bg-gradient-to-br from-purple-800 to-blue-500 hover:to-purple-400 text-white px-8 py-16 rounded space-y-6 animated fadeInUp"
       >
         <div class="headline text-center space-y-3">
           <h2 class="text-3xl md:text-5xl">Gold</h2>

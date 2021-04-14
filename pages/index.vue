@@ -6,12 +6,14 @@
           class="container m-auto px-6 max-w-6xl text-xl md:text-4xl lg:text-6xl space-y-3"
         >
           <div
-            class="callout font-semibold md:font-black space-y-3 tracking-wide text-gray-700 filter md:drop-shadow"
+            class="callout font-semibold md:font-black space-y-3 tracking-wide text-gray-700 filter md:drop-shadow animated fadeIn slower"
           >
             <h1 class="">Luxury Watches Jewelry Made</h1>
             <h1>For Everyday Attire</h1>
           </div>
-          <div class="actions text-base md:text-2xl">
+          <div
+            class="actions text-base md:text-2xl animated fadeIn slower delay-1s"
+          >
             <button
               class="bg-theme trans hover:bg-green-600 font-extralight text-white px-4 md:px-8 py-2 md:py-4 rounded"
               @click="$router.push('/services')"

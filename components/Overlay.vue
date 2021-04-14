@@ -1,7 +1,7 @@
 <template>
   <div
     v-show="show"
-    class="global-overlay z-10 fixed top-0 left-0 right-0 bottom-0"
+    class="global-overlay z-10 fixed top-0 left-0 right-0 bottom-0 animated fadeIn"
   >
     <div class="close-area w-full h-full" @click="close"></div>
     <MessageBox v-show="$store.getters.showMessageBox"></MessageBox>
