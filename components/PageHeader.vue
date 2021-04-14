@@ -2,13 +2,13 @@
   <div class="page-header">
     <div class="inner relative">
       <div
-        class="overlay absolute h-full w-full top-0 left-0 right-0 bottom-0"
+        class="overlay absolute h-full w-full top-0 left-0 right-0 bottom-0 animated fadeIn slower"
       ></div>
       <div
-        class="hero bg-cover bg-center flex flex-col items-center justify-center text-white space-y-6 py-28 lg:py-32 px-4"
+        class="hero bg-cover bg-center flex flex-col items-center justify-center text-white space-y-6 py-28 md:py-36 lg:py-44 px-4"
         :style="`background-image:url('/images/bg${bg}.jpg')`"
       >
-        <h1 class="text-3xl lg:text-5xl capitalize animated fadeIn slow">
+        <h1 class="text-3xl lg:text-5xl capitalize animated fadeInUp slow">
           {{ title }}
         </h1>
         <article
