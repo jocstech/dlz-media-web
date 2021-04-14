@@ -4,7 +4,15 @@
       <p>We provide the professional video production services</p>
     </PageHeader>
     <section class="pt-16 space-y-16">
-      <div class="inner container m-auto flex place-items-center px-4">
+      <div class="inner container m-auto flex flex-col px-4 space-y-16">
+        <Headline title="pricing" subtitle="services pricing"></Headline>
+        <div class="content">
+          <Pricing></Pricing>
+        </div>
+      </div>
+    </section>
+    <section class="pt-16 space-y-16">
+      <div class="inner container m-auto px-4">
         <Headline title="services" subtitle="our services"></Headline>
       </div>
       <div class="content">
