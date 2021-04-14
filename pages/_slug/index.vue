@@ -4,9 +4,11 @@
       class="video-cover bg-cover bg-center h-70w"
       :style="`background-image:url(${$imgURL(portfolio.cover)})`"
     >
-      <div class="cover w-full h-full"></div>
+      <div class="cover w-full h-full animated fadeIn slow"></div>
     </div>
-    <div class="video-player container max-w-6xl m-auto px-4 py-16 relative">
+    <div
+      class="video-player container max-w-6xl m-auto px-4 py-16 relative animated fadeInUp slower"
+    >
       <div class="headline text-center space-y-6 pb-16">
         <h1 class="text-3xl md:text-5xl text-white">{{ portfolio.title }}</h1>
         <h2 class="text-sm md:text-xl text-gray-400">
@@ -76,6 +78,12 @@ export default {
       portfolio: portfolioRes.data[0],
     }
   },
+  head() {
+    return {
+      title: this.portfolio.title,
+      description: this.portfolio.description,
+    }
+  },
 }
 </script>
 
@@ -85,7 +93,7 @@ export default {
     z-index: 0;
     margin-bottom: -65rem;
     @media (max-width: 1400px) {
-      margin-bottom: -55vw;
+      margin-bottom: -60vw;
     }
     @media (max-width: 800px) {
       margin-bottom: -70vw;

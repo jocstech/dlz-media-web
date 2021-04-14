@@ -86,6 +86,12 @@ export default {
       currentCat: null,
     }
   },
+  head() {
+    return {
+      title: 'Portfolio and Works',
+      description: 'We provide the professional video production services',
+    }
+  },
   computed: {
     filteredPortfolios() {
       return this.currentCat

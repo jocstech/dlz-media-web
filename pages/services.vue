@@ -31,7 +31,14 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      title: 'Our Services',
+      description: 'We provide the professional video production services',
+    }
+  },
+}
 </script>
 
 <style lang="scss" scoped></style>

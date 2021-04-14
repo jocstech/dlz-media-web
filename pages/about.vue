@@ -72,7 +72,16 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      title: 'About Us',
+      description: `DLZ media is a Toronto base video production company, staring at 2019.
+        We are focus on making cost- effective videos and images for small
+        businesses.`,
+    }
+  },
+}
 </script>
 
 <style lang="scss" scoped></style>
