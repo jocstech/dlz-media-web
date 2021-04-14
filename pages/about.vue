@@ -45,15 +45,15 @@
           <div class="list-cols flex">
             <div class="col flex-1 flex flex-col space-y-3">
               <span>Scripts Writing</span>
-              <span>Movie Making</span>
+              <span>Post Production</span>
               <span>Video Editing</span>
               <span>Audio Editing</span>
             </div>
             <div class="col flex-1 flex flex-col space-y-3">
-              <span>Video Marketing</span>
+              <span>Video Shooting</span>
               <span>Filming Strategy</span>
               <span>Video Audits</span>
-              <span>Branding</span>
+              <span>Voiceover</span>
             </div>
           </div>
         </div>

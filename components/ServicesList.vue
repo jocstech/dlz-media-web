@@ -25,6 +25,7 @@
                 </p>
                 <button
                   class="bg-theme trans hover:bg-green-600 text-white px-8 py-2 rounded"
+                  @click="$router.push('/contact')"
                 >
                   BOOK
                 </button>

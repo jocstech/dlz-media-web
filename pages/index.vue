@@ -14,6 +14,7 @@
           <div class="actions text-base md:text-2xl">
             <button
               class="bg-theme trans hover:bg-green-600 font-extralight text-white px-4 md:px-8 py-2 md:py-4 rounded"
+              @click="$router.push('/services')"
             >
               Get Started
             </button>
@@ -53,6 +54,7 @@
             <div class="actions text-base md:text-2xl text-center md:text-left">
               <button
                 class="bg-theme trans hover:bg-green-600 font-extralight text-white px-4 md:px-8 py-2 md:py-4 rounded uppercase"
+                @click="$router.push('/about')"
               >
                 learn more
               </button>

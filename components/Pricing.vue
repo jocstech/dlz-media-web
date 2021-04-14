@@ -18,8 +18,8 @@
           <strong>Including Services</strong>
           <ul class="text-sm list-disc ml-6">
             <li>HD 1920 X 1080 resolution video</li>
-            <li>Video editing & post-production</li>
-            <li>1 Day video production on location</li>
+            <li>Video editing & Post-production</li>
+            <li>1 day video production on location</li>
           </ul>
         </div>
       </div>
@@ -42,7 +42,7 @@
             <li>A 4K resolution video</li>
             <li>Video editing & post-production</li>
             <li>Custom creates treatment/ storyboard</li>
-            <li>1 Day video production on locatio</li>
+            <li>1 day video production on location</li>
             <li>Voiceover</li>
           </ul>
         </div>
@@ -65,8 +65,8 @@
           <ul class="text-sm list-disc ml-6">
             <li>A 4K resolution video</li>
             <li>Video editing & post-production</li>
-            <li>1 Day video production on location</li>
-            <li>Custom creates treatment/ storyboard</li>
+            <li>1 day video production on location</li>
+            <li>Custom creates treatments/storyboards</li>
             <li>Actors/Actress</li>
             <li>Voiceover</li>
           </ul>
