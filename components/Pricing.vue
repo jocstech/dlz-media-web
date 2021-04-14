@@ -94,6 +94,28 @@
         </div>
       </div>
     </div>
+    <div class="animated fadeIn">
+      <div class="headline text-center py-8">
+        <h2 class="text-xl font-black underline">Package for Real Estate</h2>
+      </div>
+      <div
+        class="flex justify-center bg-white shadow-xl rounded pb-16 md:py-16"
+      >
+        <ul class="space-y-3 list-disc px-12 text-sm md:text-lg">
+          <li>
+            Listing photography: 100 Listing video without testimonials: 400 CAD
+          </li>
+          <li>
+            Listing video with testimonials:450 3d virtual tour: 200 CAD Listing
+          </li>
+          <li>
+            Combo: (including photography, video, plus drone and 3d tour) - 700
+            CAD
+          </li>
+          <li>Photo combo: (including photography and 3d tour) - 250 CAD</li>
+        </ul>
+      </div>
+    </div>
   </div>
 </template>
 
