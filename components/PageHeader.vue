@@ -1,6 +1,9 @@
 <template>
   <div class="page-header">
-    <div class="inner">
+    <div class="inner relative">
+      <div
+        class="overlay absolute h-full w-full top-0 left-0 right-0 bottom-0"
+      ></div>
       <div
         class="hero bg-cover bg-center flex flex-col items-center justify-center text-white space-y-6 py-28 lg:py-32 px-4"
         :style="`background-image:url('/images/bg${bg}.jpg')`"
@@ -40,6 +43,10 @@ export default {
     h1 {
       font-family: 'Zen Dots', cursive;
     }
+  }
+  .overlay {
+    background: #00000060;
+    filter: blur(8px);
   }
 }
 </style>

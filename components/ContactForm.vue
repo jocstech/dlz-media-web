@@ -1,7 +1,9 @@
 <template>
   <div class="contact-form">
     <form class="space-y-3 md:space-y-6" @submit.prevent="submit">
-      <div class="group flex flex-col md:flex-row gap-3 md:gap-6">
+      <div
+        class="group flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-3"
+      >
         <input
           v-model="form.company"
           class="flex-1 px-6 py-4 rounded bg-gray-100"
@@ -19,7 +21,9 @@
           required
         />
       </div>
-      <div class="group flex flex-col md:flex-row gap-3 md:gap-6">
+      <div
+        class="group flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-3"
+      >
         <input
           v-model="form.phone"
           class="flex-1 px-6 py-4 rounded bg-gray-100"
@@ -37,7 +41,9 @@
           required
         />
       </div>
-      <div class="group flex flex-col md:flex-row gap-3 md:gap-6">
+      <div
+        class="group flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-3"
+      >
         <input
           v-model="form.date"
           class="flex-1 px-6 py-4 rounded bg-gray-100"
