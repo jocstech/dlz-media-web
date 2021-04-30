@@ -7,9 +7,15 @@
         <span class="mobile-menu md:hidden flex justify-center items-center">
           <MenuToggle></MenuToggle
         ></span>
-        <nuxt-link to="/">
-          <span class="logo text-xl md:text-2xl font-extralight select-none">
-            {{ settings.site_title }}
+        <nuxt-link to="/" class="flex flex-col items-center">
+          <span
+            class="logo text-xl md:text-2xl font-extralight select-none flex flex-col items-center"
+          >
+            <img
+              class="w-20 md:w-28 filter invert"
+              src="~assets/img/logo.svg"
+              alt="DLZ Media"
+            />
           </span>
         </nuxt-link>
       </div>

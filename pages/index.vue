@@ -163,13 +163,13 @@
                 <img src="/images/company1.jpg" alt="company" />
               </div>
               <div class="company border filter hover:grayscale trans">
-                <img src="/images/company1.jpg" alt="company" />
+                <img src="/images/company2.jpg" alt="company" />
               </div>
               <div class="company border filter hover:grayscale trans">
-                <img src="/images/company1.jpg" alt="company" />
+                <img src="/images/company3.jpg" alt="company" />
               </div>
               <div class="company border filter hover:grayscale trans">
-                <img src="/images/company1.jpg" alt="company" />
+                <img src="/images/company4.jpg" alt="company" />
               </div>
             </div>
           </div>
