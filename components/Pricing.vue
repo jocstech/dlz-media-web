@@ -102,19 +102,21 @@
         class="flex justify-center bg-white shadow-xl rounded pb-16 md:py-16"
       >
         <ul class="space-y-3 list-disc px-12 text-sm md:text-lg">
+          <li>Listing photography: 100 CAD</li>
+          <li>Listing video without testimonials: 400 CAD</li>
+          <li>Listing video with testimonials: 200 CAD Listing</li>
+          <li>3d virtual tour: 200 CAD</li>
           <li>
-            Listing photography: 100 Listing video without testimonials: 400 CAD
-          </li>
-          <li>
-            Listing video with testimonials:450 3d virtual tour: 200 CAD Listing
-          </li>
-          <li>
-            Combo: (including photography, video, plus drone and 3d tour) - 700
-            CAD
+            Listing combo: (including photography, video(plus drone) and 3d
+            tour): 700 CAD
           </li>
           <li>Photo combo: (including photography and 3d tour) - 250 CAD</li>
         </ul>
       </div>
+    </div>
+    <div class="pt-8 text-sm text-gray-600 text-right">
+      DLZ Reserves the right of final interpretation – ** Stock Video and
+      License Music Will Be Considered in The Future **
     </div>
   </div>
 </template>
