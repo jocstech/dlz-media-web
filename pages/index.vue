@@ -8,11 +8,11 @@
           <div
             class="callout font-semibold md:font-black space-y-3 tracking-wide text-gray-700 filter md:drop-shadow animated fadeIn slower"
           >
-            <h1 class="">Luxury Watches Jewelry Made</h1>
-            <h1>For Everyday Attire</h1>
+            <!-- <h1 class="">Luxury Watches Jewelry Made</h1>
+            <h1>For Everyday Attire</h1> -->
           </div>
           <div
-            class="actions text-base md:text-2xl animated fadeIn slower delay-1s"
+            class="actions text-base md:text-2xl pt-52 md:pt-60 lg:pt-96 animated fadeIn slower delay-1s"
           >
             <button
               class="bg-theme trans hover:bg-green-600 text-base font-extralight text-white px-4 md:px-8 py-2 md:py-4 rounded"
@@ -246,7 +246,7 @@ export default {}
 
   .inner {
     .hero {
-      background-image: url('/images/home-hero.jpg');
+      background-image: url('/images/home-hero2.jpg');
       background-position: center center;
       background-size: cover;
 
