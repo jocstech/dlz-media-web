@@ -68,7 +68,7 @@
         </div>
       </section>
       <!-- TEAM MEMBERS -->
-      <section class="team bg-gray-100 py-16">
+      <section class="team bg-gray-100 py-16 hidden">
         <div class="inner container m-auto px-4 max-w-6xl space-y-16 space-x-6">
           <Headline title="team" subtitle="team members"></Headline>
           <div
