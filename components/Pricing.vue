@@ -115,8 +115,7 @@
       </div>
     </div>
     <div class="pt-8 text-sm text-gray-600 text-right">
-      DLZ Reserves the right of final interpretation – ** Stock Video and
-      License Music Will Be Considered in The Future **
+      DLZ Reserves the right of final interpretation
     </div>
   </div>
 </template>

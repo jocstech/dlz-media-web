@@ -51,7 +51,7 @@ export default {
         },
         {
           name: 'Real estate',
-          desc: `(listing photography, videos, 360-degree virtual tour and 3D animation) we work with real-estate agents on both residential and commercial property listings, providing high
+          desc: `Listing photography, videos, 360-degree virtual tour and 3D animation, we work with real-estate agents on both residential and commercial property listings, providing high
           quality photographs, videos, 360 interactive virtual tours and 3D animation and visualization.
           We deliver a movie like experience for the listings to increase the number of potential buyers, resulting a higher and faster close rate from the initial viewing through to selling the property.`,
           cover: '/images/cover2.jpg',
