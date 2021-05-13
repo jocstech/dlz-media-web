@@ -104,13 +104,13 @@
         <ul class="space-y-3 list-disc px-12 text-sm md:text-lg">
           <li>Listing photography: 100 CAD</li>
           <li>Listing video without testimonials: 400 CAD</li>
-          <li>Listing video with testimonials: 200 CAD Listing</li>
-          <li>3d virtual tour: 200 CAD</li>
+          <li>Listing video with testimonials: 200 CAD</li>
+          <li>3D virtual tour: 200 CAD</li>
           <li>
             Listing combo: (including photography, video(plus drone) and 3d
             tour): 700 CAD
           </li>
-          <li>Photo combo: (including photography and 3d tour) - 250 CAD</li>
+          <li>Photo combo (including photography and 3d tour): 250 CAD</li>
         </ul>
       </div>
     </div>

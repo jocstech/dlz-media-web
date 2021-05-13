@@ -22,7 +22,7 @@
       class="container m-auto max-w-6xl flex flex-col md:flex-row py-16 md:py-32 space-y-6 md:space-y-0"
     >
       <div class="cover flex-1">
-        <img src="/images/bg7.jpg" alt="cover" />
+        <img src="/images/bg8.jpg" alt="cover" />
       </div>
       <div class="info flex-1 px-4 md:px-16 space-y-32">
         <div class="text space-y-8">
