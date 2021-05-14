@@ -63,7 +63,7 @@
             </div>
           </div>
           <div class="cover w-full lg:w-96">
-            <img class="w-full" src="/images/art.jpg" alt="about us" />
+            <img class="w-full" src="/images/bg8.jpg" alt="about us" />
           </div>
         </div>
       </section>
@@ -157,7 +157,7 @@
           ></Headline>
           <div class="content">
             <div
-              class="compaines grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6"
+              class="compaines grid grid-cols-2 md:grid-cols-5 gap-2 md:gap-3"
             >
               <div class="company border filter hover:grayscale trans">
                 <img src="/images/company1.jpg" alt="company" />
@@ -170,6 +170,9 @@
               </div>
               <div class="company border filter hover:grayscale trans">
                 <img src="/images/company4.jpg" alt="company" />
+              </div>
+              <div class="company border filter hover:grayscale trans">
+                <img src="/images/company5.png" alt="company" />
               </div>
             </div>
           </div>
