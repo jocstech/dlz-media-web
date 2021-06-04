@@ -76,9 +76,9 @@ export default {
   build: {},
   googleAnalytics: {
     id: 'UA-198714729-1',
-    debug: {
-      enabled: true,
-      sendHitTask: true,
-    },
+    // debug: {
+    //   enabled: true,
+    //   sendHitTask: true,
+    // },
   },
 }
