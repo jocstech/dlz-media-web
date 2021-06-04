@@ -66,8 +66,19 @@ export default {
   css: ['@/assets/magic/animate.min.css', '@/assets/css/main.scss'],
   plugins: [{ src: '@/plugins/directus' }, { src: '@/plugins/masonry' }],
   components: true,
-  buildModules: ['@nuxtjs/eslint-module', '@nuxtjs/tailwindcss'],
+  buildModules: [
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-analytics',
+  ],
   modules: ['@nuxtjs/axios'],
   axios: {},
   build: {},
+  googleAnalytics: {
+    id: 'UA-198714729-1',
+    debug: {
+      enabled: true,
+      sendHitTask: true,
+    },
+  },
 }
